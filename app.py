@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 import json
 import os
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 from flask import Flask, render_template, request, redirect, session
 from flask_sslify import SSLify
